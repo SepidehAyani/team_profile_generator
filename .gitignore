@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-=======
-# Others
-node_modules/
-.DS_Store/
-package-lock.json
-assets/
-.vscode
-
->>>>>>> ba2c729 (added readMe, classes, gitignorem css and cleanups)
 # Logs
 logs
 *.log

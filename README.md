@@ -48,6 +48,7 @@ THEN I exit the application, and the HTML is generated
 
 ##### This is a screenshot of the application and how it works: <br>
 ![Project Preview](assets/overview.png)
+
 ## Instructions
 ```  
 git clone https://github.com/SepidehAyani/team_profile_generator.git
