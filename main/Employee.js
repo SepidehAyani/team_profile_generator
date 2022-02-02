@@ -5,11 +5,7 @@ class Employee {
         this.id = id;
     }
     introduceSelf() {
-        console.log(`
-        Hi! My name is ${this.name}, 
-        my email is ${this.email} 
-        and my ID is ${this.id} 
-        `)
+        console.log(`My name is ${this.name}, my email is ${this.email} and my ID is ${this.id} `)
     }
 
     getName() {
@@ -28,5 +24,4 @@ class Employee {
         return `Employee`
     }
 }
-
-export default Employee;
+module.exports = Employee;

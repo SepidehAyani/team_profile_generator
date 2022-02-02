@@ -5,7 +5,7 @@ const addManger = function (manager) {
         <div class="card h-150">
             <div class="card-headerMan">
                 <h3>${manager.name}</h3>
-                <h4>Office Manager</h4>
+                <h4>Manager</h4>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${manager.id}</p>
@@ -20,11 +20,11 @@ const addManger = function (manager) {
 // Intern section
 const generateIntern = function (intern) {
     return `
-    <div class="col-3 mt-4">
-        <div class="card h-100">
+    <div class="col-4 mt-4">
+        <div class="card h-150"">
             <div class="card-headerInt">
                 <h3>${intern.name}</h3>
-                <h4>Office Intern</h4>
+                <h4>Intern</h4>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
@@ -39,11 +39,11 @@ const generateIntern = function (intern) {
 // Engineer section
 const generateEngineer = function (engineer) {
     return `
-    <div class="col-3 mt-4">
-        <div class="card h-100">
+    <div class="col-4 mt-4">
+        <div class="card h-150"">
             <div class="card-headerEng">
                 <h3>${engineer.name}</h3>
-                <h4>Office Engineer</h4>
+                <h4>Engineer</h4>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
@@ -63,7 +63,7 @@ htmlBuilder = (data) => {
 
     for (let i = 0; i < data.length; i++) {
         const employee = data[i];
-        const role = employee.getRole(); // Pulling from main employee
+        const role = employee.getRole();
 
 
         // Call manager function
@@ -123,4 +123,4 @@ const generateTeamPage = function (employeeCards) {
 `;
 }
 
-export default htmlBuilder; 
+module.exports = htmlBuilder; 

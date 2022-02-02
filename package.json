@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "name": "team-profile-generator",
+  "description": "## User Story",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "main": "main"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SepidehAyani/team_profile_generator"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SepidehAyani/team_profile_generator"
+  },
+  "homepage": "https://github.com/SepidehAyani/team_profile_generator"
+}
